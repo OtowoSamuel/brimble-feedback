@@ -20,10 +20,10 @@ function App() {
           <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Friction Points & Bugs</h2>
           <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
             <li style={{ marginBottom: '0.5rem' }}>
-              <strong>Log Visibility:</strong> When my first build failed due to a missing environment variable, the error was buried deep within the raw output. Having a dedicated "Error Summary" panel would be a huge time-saver.
+              <strong>Billing/Quota Bug:</strong> When I linked my new GitHub account, before I even deployed a single app, the system told me to "update my plan" and the billing page erroneously showed that I had already used all 650 free minutes. This is a critical onboarding bug that prevents new users from trying the platform.
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <strong>UI Navigation:</strong> Sometimes navigating between deployment details and the main dashboard requires an extra click or two. Breadcrumbs would greatly improve spatial awareness.
+              <strong>UI Overlap:</strong> During the onboarding flow, the progress pill (e.g., "3/6 completed") overlaps directly with the floating chat/action bubble button on the bottom right of the screen, making the UI look broken and difficult to click.
             </li>
           </ul>
         </section>
