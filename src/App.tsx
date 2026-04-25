@@ -25,6 +25,9 @@ function App() {
             <li style={{ marginBottom: '0.5rem' }}>
               <strong>UI Overlap:</strong> During the onboarding flow, the progress pill (e.g., "3/6 completed") overlaps directly with the floating chat/action bubble button on the bottom right of the screen, making the UI look broken and difficult to click.
             </li>
+            <li style={{ marginBottom: '0.5rem' }}>
+              <strong>Stale Timestamps on Project Dashboard:</strong> On the main Project Details page, the recent Deployments list incorrectly shows "1h ago" for every single deployment, regardless of when it actually happened. The real, accurate timestamps only appear after clicking "See all".
+            </li>
           </ul>
         </section>
 
